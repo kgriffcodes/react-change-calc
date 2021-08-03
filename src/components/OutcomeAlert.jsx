@@ -1,9 +1,9 @@
 import React from 'react';
 
-function OutcomeAlert() {
+function OutcomeAlert(props) {
   return (
-    <div className='outcomeAlerts'>
-      <p />
+    <div className='outcomeAlerts mt-3 text-center'>
+      <p>Outcome Alert</p>
     </div>
   );
 }

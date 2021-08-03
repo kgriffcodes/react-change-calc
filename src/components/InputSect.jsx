@@ -1,20 +1,13 @@
 /* eslint-disable react/jsx-indent */
 import React from 'react';
 
-function InputSect() {
+function Input(props) {
   return (
       <div>
-        <input 
-          className='moneyDue'
-          name='moneyDue'
-        />
-        <input 
-          className='moneyReceived'
-          name='moneyReceived'
-        />
-        <button className='btn btn-primary'>Calculate</button>
+        <label className='row'>{props.title}</label>
+        <input className='row' type='number' step='0.01'></input>
       </div>
   );
 }
 
-export default InputSect;
+export default Input;

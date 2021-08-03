@@ -1,0 +1,33 @@
+body {
+    /* Source: https://uigradients.com */
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+    background: linear-gradient(to right, #3a6073, #3a7bd5);
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    background-color: rgb(193, 193, 193);
+}
+
+hr{
+    background-color: white;
+}
+
+.white-bg{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.outcomeAlerts{
+    background-color: rgb(174, 222, 174);
+    border: 2px solid green;
+}
+
+.changeContainer{
+    background-color: grey;
+}
