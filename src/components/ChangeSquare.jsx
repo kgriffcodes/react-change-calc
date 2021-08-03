@@ -3,7 +3,7 @@ import React from 'react';
 function ChangeSquare() {
   return (
     <div className='changeContainer'>
-      <div className='changeType' />
+      <div className='changeType'>{ this.state.name }</div>
       <div className='changeOutput' />
     </div>
   );
