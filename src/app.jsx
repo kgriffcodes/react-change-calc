@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import InputSect from './components/InputSect';
-import DenominationGrid from './components/DenominationGrid';
-import OutcomeAlert from './components/OutcomeAlert';
-import Header from './components/Header';
+import DenominationGrid from "./components/DenominationGrid";
+import Header from "./components/Header";
+import InputSect from "./components/InputSect";
+import OutcomeAlert from "./components/OutcomeAlert";
 
 class App extends Component {
   constructor(props) {
@@ -15,6 +15,7 @@ class App extends Component {
     };
   }
 
+
   render() {
     return (
       <div className='container'>
@@ -23,10 +24,11 @@ class App extends Component {
           <div className='col-4'>
             <InputSect />
           </div>
+
           <div className='col-8'>
             <OutcomeAlert />
             <DenominationGrid />
-          </div>
+          </div>  
         </div>
       </div>
     );

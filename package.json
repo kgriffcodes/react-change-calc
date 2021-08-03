@@ -1,13 +1,26 @@
 {
-  "name": "change-calculator",
-  "version": "0.1.0",
-  "description": "REACT100 Assignment - Change Calculator",
-  "main": "server/index.js",
+  "name": "react100-change-calculator",
+  "version": "1.0.0",
   "scripts": {
     "start": "parcel public/index.html --open",
-    "build": "npx parcel build public/index.html",
+    "build": "npx parcel build public/index.html --no-source-maps",
     "test": "mocha test/*.spec.js --exit"
   },
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanDiegoCodeSchool/react100-change-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanDiegoCodeSchool/react100-change-calculator/issues"
+  },
+  "homepage": "https://github.com/SanDiegoCodeSchool/react100-change-calculator#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "chai": "^4.3.4",
@@ -29,26 +42,12 @@
     "chai-http": "^4.3.0",
     "csx": "^10.0.2",
     "enzyme": "^3.11.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
     "file-loader": "^6.2.0",
     "less": "^4.1.1",
     "less-plugin-autoprefix": "^2.0.0",
     "mocha": "^9.0.3",
-    "prettier": "2.3.2",
-    "sass": "^1.37.2",
     "sinon": "^11.1.2",
     "sinon-chai": "^3.7.0",
     "url-loader": "^4.1.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/origincodeacademy/startnow-react100-change-calculator.git"
-  },
-  "license": "MIT"
+  }
 }
