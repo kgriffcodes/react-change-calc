@@ -9,12 +9,12 @@ h1{
     color: white;
 }
 
-h2{
-    background-color: rgb(193, 193, 193);
-}
-
 hr{
     background-color: white;
+}
+
+p{
+    font-size: 1.5em;
 }
 
 .white-bg{
@@ -23,11 +23,23 @@ hr{
     border-radius: 5%;
 }
 
-.outcomeAlerts{
+.green-bg{
     background-color: rgb(174, 222, 174);
     border: 2px solid green;
 }
 
-.changeContainer{
-    background-color: grey;
+.red-bg{
+    background-color: rgb(235, 152, 152);
+    border: 2px solid red;
 }
+
+.displayNone{
+    display: none;
+}
+
+.changeContainer{
+    background-color: rgb(215, 215, 215);
+    border-radius: 5%;
+    width: 7em;
+}
+

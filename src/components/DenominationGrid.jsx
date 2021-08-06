@@ -1,20 +1,20 @@
 import React from 'react';
 import ChangeSquare from './ChangeSquare';
 
-function DenominationGrid() {
+function DenominationGrid(props) {
   return (
     <div className='denominationGrid'>
       <div className='denomRow1 row justify-content-around'>
-        <ChangeSquare className='twenties' title='Twenties' value='' />
-        <ChangeSquare className='tens' title='Tens' value='' />
-        <ChangeSquare className='fives' title='Fives' value='' />
-        <ChangeSquare className='ones' title='Ones' value='' />
+        <ChangeSquare title='Twenties' value={props.state.twenties}  />
+        <ChangeSquare title='Tens' value={props.state.tens}  />
+        <ChangeSquare title='Fives' value={props.state.fives}  />
+        <ChangeSquare title='Ones' value={props.state.ones} />
       </div>
       <div className='denomRow2 row justify-content-around'>
-      <ChangeSquare className='quarters' title='Quarters' value='' />
-      <ChangeSquare className='dimes' title='Dimes' value='' />
-      <ChangeSquare className='nickels' title='Nickels' value='' />
-      <ChangeSquare className='pennies' title='Pennies' value='' />
+      <ChangeSquare title='Quarters' value={props.state.quarters} />
+      <ChangeSquare title='Dimes' value={props.state.dimes} />
+      <ChangeSquare title='Nickels' value={props.state.nickels} />
+      <ChangeSquare title='Pennies' value={props.state.pennies} />
       </div>
     </div>
   );

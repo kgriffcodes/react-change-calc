@@ -12,10 +12,11 @@ app.use(express.static(path.join(__dirname, '/../dist')));
 
 app.listen(8888);
 
-const url = 'http://localhost:8888';
+const url = 'http://localhost:1234/index.html';
 
 describe('express', function() {
   this.timeout(6500);
+  
   beforeEach(() => {
     nightmare = new Nightmare();
   });
